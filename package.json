@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indexnpm install express.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenGiangSon/nodejs_blog.git"
+  },
+  "keywords": [
+    "sonng",
+    "nodejs",
+    "blog",
+    "nodejs"
+  ],
+  "author": "sonng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenGiangSon/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/NguyenGiangSon/nodejs_blog#readme"
+}
