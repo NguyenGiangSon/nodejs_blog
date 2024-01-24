@@ -2,9 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "indexnpm install express.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "dev": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/NguyenGiangSon/nodejs_blog/issues"
   },
-  "homepage": "https://github.com/NguyenGiangSon/nodejs_blog#readme"
+  "homepage": "https://github.com/NguyenGiangSon/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
